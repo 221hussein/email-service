@@ -1,0 +1,20 @@
+#Database
+POSTGRES_SQL_USERNAME: hussein
+POSTGRES_SQL_PASSWORD: tr6nsformers
+POSTGRES_SQL_PORT: localhost:5432
+POSTGRES_SQL_DB: userservice
+POSTGRES_SQL_URL: jdbc:postgresql
+
+#SERVER
+ACTIVE_PROFILE: dev
+SERVER_PORT: 9000
+APPLICATION_NAME: userservice
+
+
+#Email config
+EMAIL_HOST: smtp.gmail.com
+EMAIL_PORT: 587
+EMAIL_ID: yuzinpream51@gmail.com
+EMAIL_PASSWORD: stzgfdpbbvfqvhkp
+VERIFY_EMAIL_HOST: http://localhost:${SERVER_PORT}
+
